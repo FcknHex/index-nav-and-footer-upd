@@ -1,0 +1,61 @@
+/* Form group for label and input alignment */
+.form-group {
+    display: flex;
+    flex-direction: column; /* Stack label and input vertically */
+    flex: 1 1 45%; /* Allow to take up to 45% of the width for two columns */
+}
+
+/* Other styles remain unchanged */
+
+.footer {
+    background-color: #f9f9f9; /* Light background color */
+    padding: 20px 0; /* Padding above and below */
+    margin-top: 30px; /* Space above the footer */
+    box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.footer-content {
+    display: flex; /* Flexbox for layout */
+    justify-content: space-around; /* Space out content */
+    max-width: 1200px; /* Limit max width */
+    margin: 0 auto; /* Center the footer content */
+    padding: 0 20px; /* Side padding */
+}
+
+.footer-links, .footer-contact, .footer-social {
+    flex: 1; /* Allow each section to grow equally */
+    margin: 0 20px; /* Spacing between sections */
+}
+
+.footer-links h3, .footer-contact h3, .footer-social h3 {
+    color: #352208; /* Header color */
+    margin-bottom: 10px; /* Space below headers */
+}
+
+.footer-links a, .footer-social a {
+    display: block; /* Stack links vertically */
+    color: #352208; /* Link color */
+    margin: 5px 0; /* Space between links */
+    text-decoration: none; /* Remove underline */
+}
+
+.footer-links a:hover, .footer-social a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+.footer-social {
+    text-align: center; /* Center social icons */
+}
+
+.social-icon {
+    margin: 0 5px; /* Space between icons */
+    color: #352208; /* Icon color */
+    font-size: 1.5rem; /* Icon size */
+}
+
+.footer-bottom {
+    text-align: center; /* Center text */
+    margin-top: 20px; /* Space above the bottom text */
+    color: #352208; /* Text color */
+    font-size: 0.9rem; /* Smaller font size */
+}
